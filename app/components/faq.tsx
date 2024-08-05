@@ -6,11 +6,14 @@ async function getData() {
       question,
       answer
     }`;
-    const data = await client.fetch(query);
-    return data;
-  }
+    return client.fetch(query,{},
+        {
+          cache:'no-store',
+        }
+      )
+      }
 
-  async function faqs() {
+  async function Faqs() {
     const data = await getData();
   
     return (
@@ -27,5 +30,5 @@ async function getData() {
     );
   }
   
-  export default faqs;
+  export default Faqs;
   

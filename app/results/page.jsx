@@ -15,8 +15,12 @@ async function getNational() {
       winningnumber
     }
   `;
-  const national = await client.fetch(query);
-  return national;
+  return client.fetch(query,{},
+    {
+      cache:'no-store',
+    }
+  )
+  
 }
 
 // Function to fetch Continental results from Sanity
@@ -28,9 +32,12 @@ async function getContinental() {
       winningnumber
     }
   `;
-  const continental = await client.fetch(query);
-  return continental;
-}
+  return client.fetch(query,{},
+    {
+      cache:'no-store',
+    }
+  )
+  }
 
 // Main component
 export default async function Result() {

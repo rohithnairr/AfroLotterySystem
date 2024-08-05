@@ -12,9 +12,12 @@ async function getNational() {
       winningnumber,
       winner
     }`;
-  const national = await client.fetch(query);
-  return national;
-}
+    return client.fetch(query,{},
+      {
+        cache:'no-store',
+      }
+    )
+    }
 
 async function National() {
   const national = await getNational();
