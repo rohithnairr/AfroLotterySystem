@@ -93,14 +93,15 @@ export default async function Result() {
         <Continental />
 
         <div className="grid grid-cols-1 text-white">
-          <h2 className="text-2xl mt-24 font-light">How to play</h2>
+          <h2 className="text-2xl mt-24 font-light">Winning Criteria</h2>
           <p className="font-thin mt-8 mb-8">
             Every week, we conduct a lucky draw at the time specified in the app to select the winning numbers. Here’s how you can win:
           </p>
           <ul className="list-disc font-thin p-4">
             <li>6 Numbers Correct: Win the full amount you played for.</li>
-            <li>5 Numbers Correct: Win % of the amount you played for.</li>
-            <li>4 Numbers Correct: Win % of the amount you played for.</li>
+            <li>5 Numbers Correct: Win 50% of the amount you played for.</li>
+            <li>4 Numbers Correct: Win 25% of the amount you played for.</li>
+            <li>3 Numbers Correct: Win 10% of the amount you played for.</li>
           </ul>
         </div>
 

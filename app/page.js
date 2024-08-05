@@ -89,10 +89,7 @@ export default function Home() {
               </div>
               <div>
                 <ul className=" text-gray-100 font-thin font-Jakarta text-l list-disc p-4 ">
-                  <li>
-                    Download the App:  (Download button for appstore and playstore
-                    with embedded link)
-                  </li>
+                
                   <li className="mt-4">
                     Create an Account: Sign up with your details to get started.
                   </li>
