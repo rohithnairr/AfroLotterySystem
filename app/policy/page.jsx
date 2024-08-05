@@ -82,7 +82,7 @@ export default async function Policy() {
 
               <p className="font-bold text-white text-xl mt-4">Direct Marketing and Your Choices</p>
               <p className="font-light text-white text-l mt-4">
-                ALS respects your marketing communication preferences. You can choose to receive specific types of messages or opt out altogether. Remember, opting out won't affect essential service notifications.
+                ALS respects your marketing communication preferences. You can choose to receive specific types of messages or opt out altogether. Remember, opting out won&apos;t affect essential service notifications.
               </p>
 
               <p className="font-bold text-white text-xl mt-4">Third-Party Sharing</p>

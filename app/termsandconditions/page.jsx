@@ -15,7 +15,7 @@ export default async function TermsAndConditions() {
 
               <p className="font-bold text-white text-xl mt-24">Status, Agreement, and Acceptance</p>
               <p className="font-light text-white text-l mt-4">
-                These Terms of Use ("Terms") along with the Privacy Policy govern the contractual relationship between ALS Lottery Systems ("ALS", "we", "us", or "our") and any individual registering an account on the ALS mobile application ("App") and subsequently accessing the App as a registered user ("User").
+                These Terms of Use  along with the Privacy Policy govern the contractual relationship between ALS Lottery Systems (ALS, we, us, or our) and any individual registering an account on the ALS mobile application and subsequently accessing the App as a registered user .
               </p>
 
               <p className="font-light text-white text-l mt-4">
@@ -34,7 +34,7 @@ export default async function TermsAndConditions() {
                 <li>Draw: A lottery game outcome determined by a random draw.</li>
                 <li>User: The individual holding an Account on the ALS App.</li>
                 <li>Credits: A secure point-based system used to pay for the lottery games.</li>
-                <li>Game: Lottery games in the ALS app, ’Continental’ level running all over the African continent and ‘National’ running over a particular country.</li>
+                <li>Game: Lottery games in the ALS app, Continental level running all over the African continent and National running over a particular country.</li>
                 <li>Levels: ALS game levels divided as Level 1 with 25% of the jackpot, Level 2 with 50% of the jackpot, Level 3 - the jackpot.</li>
               </ul>
 
@@ -48,12 +48,12 @@ export default async function TermsAndConditions() {
 
               <p className="font-bold text-white text-xl mt-4">Use of ALS Services</p>
               <p className="font-light text-white text-l mt-4">
-                ALS offers lottery services in compliance with regulations set by the National Lottery Regulatory Commission. ALS may restrict or suspend User access to services and games, and reserves the right to modify or terminate any game. Users must purchase credits specified to comply with game rules and regulations. Prize winnings will be deposited into the User's Wallet and can be withdrawn as per ALS withdrawal procedures.
+                ALS offers lottery services in compliance with regulations set by the National Lottery Regulatory Commission. ALS may restrict or suspend User access to services and games, and reserves the right to modify or terminate any game. Users must purchase credits specified to comply with game rules and regulations. Prize winnings will be deposited into the User&apos;s Wallet and can be withdrawn as per ALS withdrawal procedures.
               </p>
 
               <p className="font-bold text-white text-xl mt-4">User Conduct and Responsibilities</p>
               <p className="font-light text-white text-l mt-4">
-                Users must adhere to ALS's Code of Conduct, including but not limited to:
+                Users must adhere to ALS&apos;s Code of Conduct, including but not limited to:
               </p>
               <ul className="list-disc ml-8 font-light text-white text-l mt-4">
                 <li>Compliance with Terms and Applicable Law.</li>
@@ -97,7 +97,7 @@ export default async function TermsAndConditions() {
 
               <p className="font-bold text-white text-xl mt-4">Intellectual Property</p>
               <p className="font-light text-white text-l mt-4">
-                ALS, operating under D'CrowdAfrik Nigeria, asserts ownership of all elements and content on the ALS App and its associated platforms, including social media accounts like Facebook, Twitter, YouTube, and LinkedIn. The content, materials, and technology available on the ALS App are protected by copyright, trademarks, and trade secrets, among other intellectual property rights. D'CrowdAfrik Nigeria is the rightful owner of the lottery software utilized by ALS to deliver lottery services. Users are permitted to use the ALS App and its content for personal, non-commercial purposes only. Any reproduction, distribution, or modification of the ALS App content without prior written approval is strictly prohibited. Users must refrain from infringing upon ALS's or D'CrowdAfrik Nigeria's intellectual property rights, including but not limited to unauthorized use, reproduction, or distribution of the lottery software or any proprietary technology.
+                ALS, operating under D&apos;CrowdAfrik Nigeria, asserts ownership of all elements and content on the ALS App and its associated platforms, including social media accounts like Facebook, Twitter, YouTube, and LinkedIn. The content, materials, and technology available on the ALS App are protected by copyright, trademarks, and trade secrets, among other intellectual property rights. D&apos;CrowdAfrik Nigeria is the rightful owner of the lottery software utilized by ALS to deliver lottery services. Users are permitted to use the ALS App and its content for personal, non-commercial purposes only. Any reproduction, distribution, or modification of the ALS App content without prior written approval is strictly prohibited. Users must refrain from infringing upon ALS&apos;s or D&apos;CrowdAfrik Nigeria&apos;s intellectual property rights, including but not limited to unauthorized use, reproduction, or distribution of the lottery software or any proprietary technology.
               </p>
             </div>
           </div>

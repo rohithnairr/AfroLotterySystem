@@ -1,5 +1,5 @@
 import playstore from "./images/playstore.svg";
-import ammachi from "./images/Ammachi.svg";
+import ammachi from "./images/ammachi.svg";
 import image from "./images/banner.svg";
 import image3 from "./images/image2.svg";
 import Image from "next/image";

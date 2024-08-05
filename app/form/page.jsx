@@ -3,7 +3,7 @@
 import Navbar from "../components/navbar";
 import ContactForm from "./ContactForm"
 import Footer from "../components/footer";
-import ammachi from "../images/Ammachi.svg";
+import ammachi from "../images/ammachi.svg";
 
 import Image from "next/image";
 import Career from "../components/careers";

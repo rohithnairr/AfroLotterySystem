@@ -1,5 +1,5 @@
 import playstore from "../images/playstore.svg";
-import ammachi from "../images/Ammachi.svg";
+import ammachi from "../images/ammachi.svg";
 import image from "../images/coins.png";
 import hand from "../images/hand.png";
 import Image from "next/image";
@@ -23,7 +23,7 @@ export default function About() {
               </p>
 
               <p className="pt-5 pb-14 text-gray-300 max-w-md font-thin text-base lg:text-l">
-                At ALS, we believe in the power of games to transform lives. ALS is not just about winning; it's about creating opportunities and driving positive change. Our unique approach ensures that every ticket purchased contributes to a larger purpose—funding businesses and fostering economic growth across Africa through our partnership with CrowdAfrik.
+                At ALS, we believe in the power of games to transform lives. ALS is not just about winning; its about creating opportunities and driving positive change. Our unique approach ensures that every ticket purchased contributes to a larger purpose—funding businesses and fostering economic growth across Africa through our partnership with CrowdAfrik.
               </p>
               <div>
 
@@ -72,7 +72,7 @@ export default function About() {
                 <h2 className="text-white font-light lg:mt-16 text-2xl lg:text-4xl">Impact on Community</h2>
                 <div className="mt-8 ">
                   <p className=" pb-14 text-gray-300 font-thin text-base lg:text-l">
-                    Every time you participate in an ALS game, you're not just playing to win; you're playing to make a difference. The profits from ALS games are channelled into CrowdAfrik, where they are used to fund businesses and projects that drive economic growth. This unique model ensures that the benefits of our success are felt by communities across Africa.
+                    Every time you participate in an ALS game, youre not just playing to win; youre playing to make a difference. The profits from ALS games are channelled into CrowdAfrik, where they are used to fund businesses and projects that drive economic growth. This unique model ensures that the benefits of our success are felt by communities across Africa.
                   </p>
                 </div>
 
