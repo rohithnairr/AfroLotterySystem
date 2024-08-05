@@ -1,3 +1,4 @@
+"use clients"
 import { client } from "../lib/sanity";
 import Image from "next/image";
 import Navbar from "../components/navbar";
