@@ -1,21 +1,12 @@
 "use client";
-import { client } from "../lib/sanity";
+
 import Image from "next/image"; import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import { urlFor } from "../lib/sanity"; // Make sure you have this function exported from your sanity configuration
+import Faqs from "../components/faq";
 
-async function getData() {
-  const query = `
-  *[_type == 'faq'] | order(_createdAt desc) {
-    question,
-    answer
-  }`;
-  const data = await client.fetch(query);
-  return data;
-}
 
-export default async function FAQ() {
-  const data = await getData();
+export default  function FAQ() {
+
 
 
   return (
@@ -37,16 +28,8 @@ export default async function FAQ() {
 
 
         </div>
-        <div className="p-8">
-        {data.map((post, idx) =>
-        (
-          <div key={idx} >
-        <ul className="text-white">
-          <li  className="list-disc mt-8">{post.question}<br/><span className="font-thin ">{post.answer}</span></li>
-        </ul>
-        </div>
-        ))}
-        </div>
+       
+       <Faqs/>
 
         <Footer />
       </div>

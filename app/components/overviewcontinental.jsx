@@ -1,4 +1,4 @@
-"use client";
+
 
 import { client } from "../lib/sanity";
 import Image from "next/image";

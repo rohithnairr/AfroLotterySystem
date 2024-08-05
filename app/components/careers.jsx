@@ -1,4 +1,4 @@
-"use client";
+
 
 import { client } from "../lib/sanity";
 import Image from "next/image"; // Assuming you need this image somewhere in the component
@@ -11,15 +11,18 @@ async function getCareers() {
       "documentUrl": document.asset->url
     }
   `;
-  const careers = await client.fetch(query);
-  return careers;
+return client.fetch(query,{},
+  {
+    cache:'no-store',
+  }
+)
 }
 
 async function Careers() {
   const careers = await getCareers();
 
   return (
-    <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-4">
+    <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-24">
       <div className="overflow-x-auto">
         <table className="w-full text-sm text-left rtl:text-right text-gray-100 dark:text-gray-100">
           <thead className="text-xs text-gray-100 font-thin uppercase dark:bg-gray-100 dark:text-gray-100">
