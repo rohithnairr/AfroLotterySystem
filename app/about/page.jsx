@@ -5,7 +5,9 @@ import hand from "../images/hand.png";
 import Image from "next/image";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+
 import Link from "next/link";
+
 
 export default function About() {
   return (
@@ -27,7 +29,7 @@ export default function About() {
               </p>
               <div>
 
-                <a className="text-white mt-4 font-light  text-center px-8 py-4 border max-w-72 rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="/form.html"> Work with Us</a>
+                <a className="text-white mt-4 font-light  text-center px-8 py-4 border max-w-72 rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="/form"> Work with Us</a>
 
               </div>
 
@@ -113,7 +115,7 @@ export default function About() {
 
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-4 lg:mt-52 mt-32 sm:grid-cols-1 md:grid-cols-2 bg-red-950  text-grey-900">
+          <div className="grid lg:grid-cols-2 gap-4 lg:mt-52 mt-32 pb-16 sm:grid-cols-1 md:grid-cols-2 bg-red-950  text-grey-900">
 
             <div className="lg:px-16 px-8 py-8 lg:py-0">
               <h2 className="text-white font-light lg:mt-16 text-2xl lg:text-4xl">Join Us in Making a Difference
@@ -127,11 +129,17 @@ export default function About() {
                 </ul>
 
               </div>
-              <div className="mt-8">
-                <a href="https://www.crowdafrik.com" className="text-white mt-8 font-light text-center px-4 py-4 border max-w-72 rounded-3xl border-white mx-auto hover:bg-red-900 hover:text-white">
-                  Download the game
-                </a>
-              </div>
+              <div className="block mx-auto">
+              <a className="block mx-auto mt-8" href="#">
+                <Image
+                  className="max-w-ls   w-44 lg:w-80 "
+                  src={playstore}
+                  alt="image"
+                />
+
+              </a>
+            </div>
+            
 
             </div>
             <div>

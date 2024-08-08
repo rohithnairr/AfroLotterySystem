@@ -29,7 +29,19 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-                <p className='text-sm text-gray-500 sm:text-centertext-gray-400 text-center'>Terrace II, Dominion Court II, Nicole Balogun Street, Igbo-efon Bus stop, Lekki, Lagos.
+                <p className='text-sm text-gray-500 sm:text-centertext-gray-400 text-center'>D’CrowdAfrik Nigeria,
+Terrace II, Dominion Court II, 
+Nicole Balogun Street,
+ Igbo-efon Bus stop, Lekki, Lagos.
+
+
+                </p>
+                <p className='text-sm text-gray-500 sm:text-centertext-gray-400 text-center'>102F Regus Dartford
+Victory Way, Admirals Park, Crossways
+Dartford DA2 6QD, United Kingdom
+CrowdAfrik LTD.
+
+
                 </p>
                 <p className='text-sm text-gray-500 sm:text-centertext-gray-400 text-center'>+2348090999200,+2348189872332 || info@crowdafrik.com
                 </p>

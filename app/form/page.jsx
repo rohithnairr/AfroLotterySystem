@@ -14,7 +14,7 @@ export default function Form() {
     < div className="bg-black ">
       <div className="container mx-auto p-4 lg:p-8  bg-black ">
         <Navbar />
-        <h2 className="font-light text-gray-100 text-2xl text-left mt-16 lg:text-3xl  animate-flip-up">Become a Super Agent
+        <h2 className="font-light text-gray-100 text-2xl text-left mt-16 lg:text-3xl  animate-flip-up">Become an agent
         </h2>
         <p className="font-thin text-gray-100 text-l text-left mt-4 lg:text-l  animate-flip-up">Join ALS as a Super Agent and be part of a thriving network. As a Super Agent, you will play a crucial role in expanding our reach and maximizing sales. Earn commissions and be a key player in our success story.
         </p>
@@ -45,7 +45,7 @@ export default function Form() {
     </ul>
   </div>
   <div className="mt-8">
-    <a href="wwww.crowdafrik.com" className="text-white mt-8 font-light text-center px-4 py-4 border max-w-72 rounded-3xl border-white mx-auto hover:bg-red-900 hover:text-white">
+    <a href="mailto:als@crowdafrik.com" className="text-white mt-8 font-light text-center px-4 py-4 border max-w-72 rounded-3xl border-white mx-auto hover:bg-red-900 hover:text-white">
       Connect
     </a>
   </div>

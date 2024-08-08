@@ -19,9 +19,7 @@ export default  function FAQ() {
               <h1 className="font-light text-red-500 text-3xl lg:text-5xl  mb-2 animate-flip-up">
                 Frequently Asked Question
               </h1>
-              <p className="mt-5  text-white max-w-sm font-thin  text-2xl">
-                Welcome to ALS
-              </p>
+            
             </div>
           </div>
 

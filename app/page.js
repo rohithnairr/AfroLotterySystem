@@ -23,18 +23,21 @@ export default function Home() {
               <p className="mt-5  text-white max-w-sm font-thin  text-2xl">
                 Why are you waiting ?
               </p>
-              
+
               <p className="pt-5 pb-14 text-gray-300 max-w-md font-thin text-base lg:text-l">
                 Discover Afro lottery System (ALS), your gateway to thrilling
                 lottery experiences in Africa. ALS, powered by <b>CrowdAfrik</b>, brings
                 you exciting opportunities to test your luck and win big prizes.{" "}
               </p>
-              <div>
-             
-              <a className="text-white mt-4 font-light  text-center px-8 py-4 border max-w-72 rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="/form"> Become an agent</a>
-
+              <div className="grid grid-cols-1 lg:grid-cols-2">
+                <div>
+                <a className="text-white mt-4 font-light  text-center px-8 py-4 border max-w-72 rounded-3xl border-white  hover:bg-red-800 hover:text-white mr-8 " href="/form"> Become an agent</a><br/>
+                </div>
+                <div className="mt-16 lg:mt-0">
+                <a className="text-white mt-4 font-light  text-center px-8 py-4 border max-w-72 rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="">Download ALS App</a>
+                </div>
               </div>
-           
+
             </div>
             <div className="">
               <Image
@@ -46,7 +49,7 @@ export default function Home() {
           </div>
 
           <div className="grid gap-4 lg:mt-52 mt-32 grid-cols-1 text-grey-900  ">
-            <h2 className="font-light text-gray-100 text-2xl text-center lg:text-4xl  mb-2 animate-flip-up">Download Out App and start<span className="text-red-500"> Playing Now !</span></h2>
+            <h2 className="font-light text-gray-100 text-2xl text-center lg:text-4xl  mb-2 animate-flip-up">Download ALS app and start<span className="text-red-500"> Playing Now !</span></h2>
             <div className="block mx-auto">
               <a className="block mx-auto" href="#">
                 <Image
@@ -74,7 +77,7 @@ export default function Home() {
 
             <h3 className="text-gray-100 text-3xl font-light text-center ">Afro Lottery System </h3>
             <p className="text-gray-100 text-left lg:text-center mt-8 text-l font-thin">Discover Afro Lottery System -ALS, your gateway to thrilling lottery  experiences in Africa. ALS, powered by CrowdAfrik, brings you exciting  opportunities to test your luck and win big prizes. Our user-friendly  app lets you participate in weekly draws, where you can select 6 numbers  and stand a chance to win enticing rewards. Explore ALS now and join  thousands of players in the ultimate quest for fortune and excitement</p>
-            <a href="wwww.crowdafrik.com" className="text-white mt-8 font-light text-center px-4 py-4 border max-w-72 rounded-3xl border-white mx-auto hover:bg-red-700 hover:text-white">
+            <a href="https://www.crowdafrik.com" className="text-white mt-8 font-light text-center px-4 py-4 border max-w-72 rounded-3xl border-white mx-auto hover:bg-red-700 hover:text-white">
               Visit our Parent Organisation
             </a>
           </div>
@@ -89,7 +92,7 @@ export default function Home() {
               </div>
               <div>
                 <ul className=" text-gray-100 font-thin font-Jakarta text-l list-disc p-4 ">
-                
+
                   <li className="mt-4">
                     Create an Account: Sign up with your details to get started.
                   </li>
@@ -118,10 +121,7 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-
             </div>
-
-
             <div className="grid lg:grid-cols-2 gap-4 lg:mt-32 mt-16 sm:grid-cols-1 md:grid-cols-2  text-grey-900">
               <div>
                 <h2 className="lg:text-4xl text-2xl text-white">Play ALS using <span className="text-red-500">Kiosk Device</span></h2>
@@ -160,37 +160,34 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-
             </div>
-
-
           </div>
           <div className="grid lg:grid-cols-2 gap-4 lg:mt-52 mt-32 sm:grid-cols-1 md:grid-cols-2 bg-red-950  text-grey-900">
 
-<div className="lg:px-16 px-8 py-8 lg:py-0">
-  <h2 className="text-white font-light lg:mt-32 text-2xl lg:text-4xl">Connect with Us</h2>
-  <div className="mt-8 ml-4">
-    <ul className=" text-gray-100 font-thin font-Jakarta text-l list-disc ">
-      <li>
-        We are available 24 x 7 for your help !
-      </li>
-    </ul>
-  </div>
-  <div className="mt-8">
-    <a href="wwww.crowdafrik.com" className="text-white mt-8 font-light text-center px-4 py-4 border max-w-72 rounded-3xl border-white mx-auto hover:bg-red-900 hover:text-white">
-      Connect
-    </a>
-  </div>
+            <div className="lg:px-16 px-8 py-8 lg:py-0">
+              <h2 className="text-white font-light lg:mt-32 text-2xl lg:text-4xl">Connect with Us</h2>
+              <div className="mt-8 ml-4">
+                <ul className=" text-gray-100 font-thin font-Jakarta text-l list-disc ">
+                  <li>
+                    We are available 24 x 7 for your help !
+                  </li>
+                </ul>
+              </div>
+              <div className="mt-8">
+                <a href="mailto:als@crowdafrik.com" className="text-white mt-8 font-light text-center px-4 py-4 border max-w-72 rounded-3xl border-white mx-auto hover:bg-red-900 hover:text-white">
+                  Connect
+                </a>
+              </div>
 
-</div>
-<div>
-  <Image
-    className="lg:max-w-xl"
-    src={ammachi}
-    alt="image"
-  />
-</div>
-</div>
+            </div>
+            <div>
+              <Image
+                className="lg:max-w-xl"
+                src={ammachi}
+                alt="image"
+              />
+            </div>
+          </div>
         </div>
         <Footer />
       </div>
